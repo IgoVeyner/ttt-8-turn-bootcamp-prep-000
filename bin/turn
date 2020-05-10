@@ -12,5 +12,6 @@ while valid_move(board, index) == false
   turn(board)
   input = gets.strip
   index = input_to_index(input)
+  end
 move(board, index)
 display_board(board)
